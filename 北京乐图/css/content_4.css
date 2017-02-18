@@ -1,0 +1,81 @@
+#content_4_banner{
+	width: 100%;
+	background-color: #187EC6;
+	text-align: center;
+}
+#content_4_banner_1{
+	margin: 0px auto;
+}
+#content_4_content{
+	width: 100%;
+	margin-top:10px ;
+	border-top: 1px solid #CCCCCC;
+	background-color: #FFFFFF;
+}
+#content_4_content #content_4_list{
+	margin: 10px auto 20px auto;
+	width: 980px;
+	border: 1px solid #CCCCCC;
+}
+#content_4_content #content_4_list br{
+	clear:both;
+}
+#content_4_content #content_4_list #content_4_links{
+	float: left;
+	width: 250px;
+	text-align: left;
+	border-right: 1px solid #CCCCCC;
+	height: 400px;
+	background-color: #EAF7FF;
+}
+#content_4_content #content_4_list #content_4_links h3{
+	padding: 10px 0px 10px 40px;
+	font: 20px arial;
+	color: #333333;
+	background-color: #EFF3F6;
+	border-bottom: 1px solid #CCCCCC;
+}
+#content_4_content #content_4_list #content_4_links ul{
+	list-style: none;
+}
+#content_4_content #content_4_list #content_4_links ul li{
+	height: 30px;
+	background-color: #FFFFFF;
+	line-height: 30px;
+	border-bottom: 1px solid #CCCCCC;
+}
+#content_4_content #content_4_list #content_4_links ul li a{
+	display: inline-block;
+	line-height: 30px;
+	padding: 8px 0px 6px 40px;
+	font: 14px arial;
+	color: #666666;
+	width: 210px;
+    background: url(../img/sanjiao_03.png) no-repeat 20px 10px;
+	text-decoration: none;
+}
+#content_4_content #content_4_list #content_4_list_content{
+	float: left;
+	width: 630px;
+	color: #666666;
+}
+#content_4_content #content_4_list #content_4_list_content h4{
+	padding: 40px 0px 30px 0px;
+	font: 18px "微软雅黑";
+}
+#content_4_content #content_4_list #content_4_list_content p{
+	padding: 0px 30px 10px 30px;
+	width: 100%;
+	font: 12px arial;
+	line-height: 1.5em;
+	text-align: left;
+}
+#content_4_content #content_4_list #content_4_list_content ul{
+	list-style: none;
+	padding-left: 40px;
+	font: 12px arial;
+	text-align: left;
+}
+#content_4_content #content_4_list #content_4_list_content ul li{
+	padding-top:15px;
+}

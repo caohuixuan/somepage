@@ -1,0 +1,342 @@
+body,h2,p,ul{
+	margin: 0px;
+	padding: 0px;
+}
+.top{
+	width: 100%;
+	height: 50px;
+	background: url(../images/nav_bg_01.png) repeat-x;
+}
+.top .top_{
+	width: 980px;
+	height: 50px;
+	margin: 0px auto;
+}
+.top .top_ ul{
+	list-style: none;
+}
+.top .top_ ul li{
+	float: left;
+	width: 100px;
+	height: 50px;
+	line-height: 50px;
+	background: url(../images/nav1_02.png) no-repeat;
+	text-align: center;
+}
+.top .top_ ul li a:link,.top .top_ ul li a:visited{
+	text-decoration: none;
+	color: #ffffff;
+	font: 16px "微软雅黑";
+}
+.top .top_ ul li a:hover{
+	text-decoration: none;
+	color: #ff0;
+	font: 16px "微软雅黑";
+}
+.top .top_ span{
+	float: right;
+	padding-right: 20px;
+	width: 110px;
+	height: 50px;
+}
+.top .top_ span a:link,.top .top_ span a:visited{
+	display: inline-block;
+	height: 50px;
+	vertical-align: middle;
+	text-decoration: none;
+	color: #ffffff;
+	font: 16px "微软雅黑";
+}
+.top .top_ span a:hover{
+	display:inline-block;
+	height: 50px;
+	vertical-align: middle;
+	text-decoration: none;
+	color: #ff0;
+	font: 16px "微软雅黑";
+}
+.search{
+	width: 100%;
+	height: 120px;
+	background-color: #e6f5e1;
+}
+.search .search_{
+	width:980px;
+	height: 120px;
+	margin: 0px auto;
+}
+.search .search_ .logo{
+	float: left;
+}
+.searched form{
+	padding-top: 20px;
+	position: relative;
+}
+.searched .here{
+	width: 405px;
+	height: 35px;
+	padding-left: 30px;
+	border-width: 0px;
+	background: url(../images/sosotiao_03.png) no-repeat;
+}
+.searched .img{
+	position: absolute;
+	top:20px;
+	left:743px;
+}
+.tips{
+		padding-top: 20px;
+}
+.tips span{
+	font: 12px arial;
+	color: #999;
+	padding-left: 10px;
+}
+.tips span a:link,.tips span a:visited{
+		font: 12px arial;
+	color: #999;
+	text-decoration: none;
+}
+.tips span a:hover{
+			font: 12px arial;
+	color: #999;
+	text-decoration: none;
+}
+.content .content1{
+width: 100%;
+height: 320px;
+background-color: #E6F5E1;	
+}
+.content .content1 .content1_{
+	width: 980px;
+	height: 320px;
+	margin: 0px auto;
+}
+.content .content1 .content1_ .banner{
+	float: left;
+}
+.content1_list{
+	width: 270px;
+	float: right;
+}
+.content1_list ul{
+	list-style: none;
+	height: 180px;
+	border-bottom: 1px solid #999999;
+	border-top: 1px solid #999999;
+	margin: 0px 10px 0px 10px;
+	background: url(../images/remen_03.png) no-repeat 210px 30px;
+}
+.content1_list ul li{
+	padding:5px 0px 5px 0px;
+}
+.content1_list ul li span{
+	display: inline-block;
+	width: 13px;
+	height: 13px;
+	text-align: center;
+	margin: 0px 10px 0px 10px;
+	font: 12px arial;
+}
+.content1_list ul li a:link,.content1_list ul li a:visited{
+	text-decoration: none;
+	color: #999999;
+	vertical-align: middle;
+
+}
+.content1_list ul li a:hover{
+	text-decoration: underline;
+	color: #999999;
+    vertical-align: middle;
+}
+.content2{
+	width: 980px;
+	margin: 0px auto;
+}
+.content2 h2{
+	margin: 15px 0px 10px 15px;
+}
+.content2_left{
+	width: 710px;
+	float: left;
+}
+.content2_left ul{
+	list-style: none;
+}
+.content2_left ul li{
+	border-bottom: 1px solid #999999;
+	clear: both;
+}
+.content2_left .imglink{
+    height: 150px;
+	width: 120px;
+	float: left;
+	font:12px arial ;
+	text-align: center;
+	margin-top: 30px;
+}
+.content2_left .imglink:link,.content2_left .imglink:visited{
+	color: cadetblue;
+	text-decoration: none;
+}
+.content2_left .imglink:hover{
+	color: cadetblue;
+	text-decoration: none;
+}
+.content2_left .imglink img{
+	border: 1px solid #999999;
+	padding: 2px;
+}
+.content2_left_text{
+	font: 12px arial;
+	width: 550px;
+	float: right;
+	padding-right: 20px;
+	margin-top: 10px;
+}
+.content2_left_text span{
+	color: #999999;
+}
+.content2_peo{
+	display: inline-block;
+	margin-top: -30px;
+	height: 40px;
+	font: 16px "微软雅黑";
+	color: #5F9EA0;
+	vertical-align: middle;
+}
+.content2_left_text p{
+	font: 12px arial;
+	line-height: 1.5em;
+	padding:0px 10px 0px 10px;
+}
+.content2_from{
+	float: left;
+}
+.content2_time,.content2_zan{
+	float: right;
+	padding-right: 10px;
+}
+.content2_left_new{
+	clear: both;
+	margin-top: 100px;
+}
+.new span{
+	display: inline-block;
+    width: 130px;
+    height: 150px;
+  text-align: center;
+}
+.new span a:link,.new span a:visited{
+    font: 14px arial;
+    color: #5F9EA0;
+    text-decoration: none;
+}
+.new span a:hover{
+	font: 14px arial;
+	color: #FFFF00;
+	text-decoration: none;
+}
+.content2_left_new img{
+	border: 1px solid #999999;
+	padding: 2px;
+}
+.content2_right{
+	width: 270px;
+	float: right;
+}
+.content2_rigth_list ul{
+	list-style: none;
+	padding-left: 15px;
+}
+.content2_rigth_list ul li{
+	clear: both;
+	padding: 10px 0px 10px 15px;
+}
+.content2_rigth_list ul li img{
+	float: left;
+	margin-right: 15px;
+} 
+.content2_rigth_list ul li p{
+	font: 14px "微软雅黑";
+	color: darkgoldenrod;
+}
+.content2_rigth_list ul li span{
+	font: 12px arial;
+	color: #999999;
+}
+.content2_rigth_list .thisform{
+	margin-left: 20px;
+}
+.content2_right_today span{
+	width: 121px;
+	margin-left: 8px;
+	float: left;
+	text-align: center;
+}
+.content3{
+	font: 16px "微软雅黑";
+	color: #999999;
+	clear: both;
+	width: 980px;
+	margin: 40px auto 40px auto;
+}
+.content3 ul{
+	list-style: none;
+}
+.content3 ul li{
+	float: left;
+}
+.content3 ul li a:link,.content3 ul li a:visited{
+	font: 14px arial;
+	color: #5F9EA0;
+	text-decoration: none;
+	padding-left: 10px;
+}
+.content3 ul li a:hover{
+	font: 14px arial;
+	color: #000000;
+	text-decoration: none;
+	padding-left: 10px;
+}
+.footer{
+	width: 100%;
+	height: 237px;
+	background: url(../images/footer_bg_12.png) repeat-x;
+}
+.footer_{
+	width: 980px;
+	margin: 0px auto;
+}
+.footer_ ul{
+	list-style: none;
+	float: left;
+	margin-right: 50px;
+	margin-top: 30px;
+	font: 14px arial;
+	color: #E6F5E1;
+	font-weight: bold;
+}
+.footer_ ul li{
+	padding: 8px 0px 8px 0px;
+}
+.footer_ ul li a:link,.footer_ ul li a:visited{
+	color: #FFFFFF;
+	text-decoration: none;
+	font-weight: lighter;
+}
+.footer_ ul li a:hover{
+	color: #FFFF00;
+	text-decoration: none;
+	font-weight: lighter;
+}
+.footer_ img{
+	margin-top:80px;
+	margin-left: 50px;
+}
+.footer_ p{
+	clear: both;
+	padding-top: 40px;
+	color: #E6F5E1;
+	font: 12px arial;
+}

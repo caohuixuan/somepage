@@ -1,0 +1,26 @@
+#content_left #content_left_content{
+	clear: both;
+margin-left: 60px;
+width: 600px;
+padding-bottom: 20px;
+border-bottom: 1px dashed #666666;
+}
+#content_left #content_left_content p{
+	margin: 0px auto;
+	font: 12px arial;
+	color: #666666;
+	line-height: 2em;
+}
+#content_left_content h3{
+	margin: 20px auto 20px auto;
+	font: 20px arial;
+	color: #333333;
+	font-weight: bold;
+}
+#content_left_link{
+	margin-top: 20px;
+	float: right;
+	width: 300px;
+	font: 12px arial;
+	color: #999999;
+}

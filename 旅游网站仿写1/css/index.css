@@ -1,0 +1,239 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background-color: #2286c6;
+	font-size: 12px;
+	font-family: arial,helvetica,sans-serif; 
+	text-align: center;
+}
+#banner img{
+	vertical-align: top;
+	border: none;
+}
+#container{
+	position: relative;
+	margin: 0px auto;
+	text-align: left;
+	width: 780px;
+}
+
+#globallink ul{
+margin: 0px;padding: 0px;
+list-style: none;
+}
+#globallink ul li{
+	float: left;
+	width: 78px;
+	text-align: center;
+}
+#globallink a{
+	display: block;
+	_display:inline-block;
+	_width:78px;
+	padding: 9px 6px 11px 6px;
+	margin: 0px;
+}
+#globallink a:link,#globallink a:visited{
+	color: #004a87;
+	text-decoration: underline;
+	background: url(../img/button1.jpg) no-repeat;
+}
+#globallink a:hover{
+	color: #ffffff;
+	text-decoration: underline;
+	background: url(../img/button1_bg.jpg) no-repeat;
+}
+#left{
+	float: left;
+	margin: 0px;
+	padding: 0px 0px 3px 0px;
+	width: 200px;
+	background: #FFFFFF;
+	color: #d8ecff;
+}
+#left div{
+	margin: 0px 5px;
+	background-color: #5EA6EB;
+}
+#weather{
+	margin: 0px 5px 0px 5px;
+	background:#5ea6eb url(../img/weather.jpg) no-repeat -5px 0px;
+}
+#weather h3{
+	font-size: 12px;
+	margin: 0px;
+	padding: 24px 0px 0px 74px;
+}
+#weather ul{
+	margin: 8px 5px 0px 5px;
+	padding: 10px 0px 8px 5px;
+	list-style: none;
+}
+#weather ul li{
+	padding: 1px 0px 0px 10px;
+	background: url(../img/icon1.gif) no-repeat 0px 6px;
+}
+#today{
+	padding: 0px 0px 10px 0px;
+}
+#today h3{
+	margin: 0px 0px 5px 0px;
+	padding: 4px 0px 2px 15px;
+	font-size: 12px;
+	color: #003973;
+	background: #bbddff url(../img/icon2.gif) no-repeat 5px 7px;
+}
+#today ul{
+	list-style: none;
+	margin: -5px 0px 0px 0px;
+	padding: 0px;
+}
+#today ul li{
+	text-align: center;
+}
+#today  ul li img{
+	margin: 8px 0px 0px 0px;
+	border: 1px solid #FFFFFF;
+}
+#today ul li a:link,#today ul li a:visited{
+	color: #D8ECFF;
+	text-decoration: none;
+}
+#today ul li a:hover{
+	color: #ffff00;
+	text-decoration: underline;
+}
+#middle{
+	float: left;
+	width: 400px;
+	margin: 0px 0px 0px 2px;
+	padding: 5px 0px 0px 0px;
+	background-color: #FFFFFF;
+}
+#middle div{
+	margin: 0px 5px;
+	position: relative;
+}
+#middle h3 span{
+	display: none;
+}
+#middle h3{
+	margin: 0px;
+	padding: 0px;
+	height: 41px;
+}
+div #beauty{
+	margin: 15px 0px 0px 0px;
+	padding: 0px;
+}
+#beauty h3{
+	background: url(../img/picture_h1.gif) no-repeat;
+}
+#route h3{
+	background: url(../img/route_h1.gif) no-repeat;
+}
+#beauty ul,#route ul{
+	list-style: none;
+	margin: 8px 1px 0px 1px;
+	padding: 0px;
+}
+#beauty ul li{
+	float: left;
+	width: 97px;
+	text-align: center;
+}
+#route{
+	clear: both;
+	padding: 5px 0px 15px 0px;
+}
+#route ul li{
+	padding: 3px 0px 0px 30px;
+	background: url(../img/icon1.gif) no-repeat 20px 7px;
+}
+#route ul li a:link,#route ul li a:visited{
+	color: #004e8a;
+	text-decoration: none;
+}
+#route ul li a:hover{
+	color: #000000;
+	text-decoration: underline;
+}
+#right{
+	float: left;
+	margin: 0px 0px 1px 2px;
+	width: 176px;
+	background-color: #FFFFFF;
+	color: #d8ecff;
+}
+#right div{
+	position: relative;
+	margin-left: 5px;
+	margin-right: 5px;
+	background-color: #5EA6EB;
+}
+#right div h3{
+	padding: 4px 0px 2px 15px;
+	margin: 0px 0px 5px 0px;
+	color: #003973;
+	font-size: 12px;
+	background: #BBDDFF url(../img/icon2.gif) no-repeat 5px 7px;
+}
+#map{
+	margin-top: 5px;
+}
+#map ul{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+#map ul li{
+	margin: 0px;
+	padding: 2px 0px 5px 0px;
+	text-align: center;
+}
+#map ul li img{
+	border: 1px solid #FFFFff;
+}
+#food{
+	padding-top:10px;
+}
+#food ul,#hotel ul{
+	list-style: none;
+	padding: 0px 0px 10px 0px;
+    margin: 10px 10px 0px 10px;	
+}
+#food ul li,#hotel ul li{
+	padding: 3px 0px 3px 12px;
+	border-bottom: 1px dashed #eeeeee;
+	background: url(../img/icon1.gif) no-repeat 3px 9px;
+}
+#food a:link,#food a:visited,#hotel a:link,#hotel a:visited{
+	color: #D8ECFF;
+	text-decoration: none;
+}
+#food a:hover,#hotel a:hover{
+	color: #000000;
+	text-decoration: none;
+}
+#hotel{
+	padding-top:10px;
+	padding-bottom:5px;
+	margin-bottom:5px;
+}
+#footer{
+	position: relative;
+	clear: both;
+	margin: 1px 0px 0px 0px;
+	padding: 1px 0px 1px 0px;
+	background-color: #FFFFFF;
+}
+#footer p{
+	margin: 4px 5px 4px 5px;
+	padding: 0px;
+	text-align: center;
+	background-color:#5EA6EB ;
+}
+#footer p a{
+	color: #FFFFFF;
+	text-decoration: none;
+}

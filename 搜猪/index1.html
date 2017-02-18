@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>搜猪</title>
+		<link rel="stylesheet" type="text/css" href="css/index1.css"/>
+		<script src="js/jquery-1.11.0.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$(function(){
+				var i=0;
+				setInterval(function(){
+					if(i>3){
+						i=0;
+					}
+					$(".imgs img").attr("src","images/i"+i+".jpg");
+					$(".focus span:eq("+i+")").css({"background-color":"#CD5C5C"}).siblings().css({"background-color":"#bbbbbb"});
+					i++;
+				},2000);
+				$(".focus span").click(function(){
+						$(this).css({"background-color":"#CD5C5C"}).siblings().css({"background-color":"#bbbbbb"});
+						i=$(this).index();
+						$(".imgs img").attr("src","images/i"+i+".jpg");
+					});
+				
+			});
+		</script>
+	</head>
+	<body>
+	<div class="top">
+		<img src="images/1.jpg"/>
+	</div>
+	<div class="nav">
+		<div class="nav_">
+			<img src="images/3.jpg"/>
+		     <ul>
+		     	<li><a href="#">搜猪新闻播报</a></li>
+		     	<li><a href="#">企业视窗</a></li>
+		     	<li><a href="#">研讨会</a></li>
+		     	<li><a href="#">网友分享</a></li>
+		     	<li><a href="#">产品在线</a></li>
+		     	<li><a href="#">培训讲座</a></li>
+		     </ul>
+		     <a class="share" href="#"><img src="images/4.jpg"/></a>
+		</div>
+	</div>
+	<div class="content">
+		<div class="content_1">
+			<div class="banner">
+				<div class="imgs">
+					<img src="images/i0.jpg"/>
+				</div>
+				<div class="focus">
+					<span class="" style="background-color: #CD5C5C;">1</span>
+					<span class="">2</span>
+					<span class="">3</span>
+					<span class="">4</span>
+				</div>
+			</div>
+			<div class="search">
+				<input type="search" name="search" id="search" />
+				<input type="button" name="btn" id="btn"/>
+				<div class="tt">
+				<img src="images/9.jpg"/>
+				<img src="images/9.jpg"/>
+				<img src="images/9.jpg"/>
+				</div>
+				
+			</div>
+			<div class="list">
+				<ul style="background: url(images/10.jpg) no-repeat;width: 208px;">
+					<p class="more"><a href="#">更多</a></p>
+					<li><a href="#">20132827期</a></li>
+					<li><a href="#">20132827期</a></li>
+					<li><a href="#">20132827期</a></li>
+					<li><a href="#">20132827期</a></li>
+					<li><a href="#">20132827期</a></li>
+					<li><a href="#">20132827期</a></li>
+					<li><a href="#">20132827期</a></li>
+					<li><a href="#">20132827期</a></li>
+					<li><a href="#">20132827期</a></li>
+					<li><a href="#">20132827期</a></li>
+					<li><a href="#">20132827期</a></li>
+					<li><a href="#">20132827期</a></li>
+					<li><a href="#">20132827期</a></li>
+					<li><a href="#">20132827期</a></li>
+				</ul>
+				<ul style="background: url(images/11.jpg) no-repeat;" >
+					<p class="more"><a href="#">更多</a></p>
+					<li><a href="#">科技农业-走进双a团幕后啊</a></li>
+					<li><a href="#">科技农业-走进双a团幕后啊</a></li>
+					<li><a href="#">科技农业-走进双a团幕后啊</a></li>
+					<li><a href="#">科技农业-走进双a团幕后啊</a></li>
+					<li><a href="#">科技农业-走进双a团幕后啊</a></li>
+					<li><a href="#">科技农业-走进双a团幕后啊</a></li>
+					<li><a href="#">科技农业-走进双a团幕后啊</a></li>
+				</ul>
+				<ul style="background: url(images/12.jpg) no-repeat;">
+					<p class="more"><a href="#">更多</a></p>
+					<li><a href="#">我的养活</a></li>
+					<li><a href="#">我的养活</a></li>
+					<li><a href="#">我的养活</a></li>
+					<li><a href="#">我的养活</a></li>
+					<li><a href="#">我的养活</a></li>
+					<li><a href="#">我的养活</a></li>
+					<li><a href="#">我的养活</a></li>
+					<li><a href="#">我的养活</a></li>
+					<li><a href="#">我的养活</a></li>
+					<li><a href="#">我的养活</a></li>
+					<li><a href="#">我的养活</a></li>
+					<li><a href="#">我的养活</a></li>
+					<li><a href="#">我的养活</a></li>
+					<li><a href="#">我的养活</a></li>
+				</ul>
+				<ul style="background: url(images/12.jpg) no-repeat;">
+					<p class="more"><a href="#">更多</a></p>
+					<li><a href="#">二饼疫苗</a></li>
+					<li><a href="#">二饼疫苗</a></li>
+					<li><a href="#">二饼疫苗</a></li>
+					<li><a href="#">二饼疫苗</a></li>
+					<li><a href="#">二饼疫苗</a></li>
+					<li><a href="#">二饼疫苗</a></li>
+					<li><a href="#">二饼疫苗</a></li>
+					<li><a href="#">二饼疫苗</a></li>
+					<li><a href="#">二饼疫苗</a></li>
+					<li><a href="#">二饼疫苗</a></li>
+					<li><a href="#">二饼疫苗</a></li>
+					<li><a href="#">二饼疫苗</a></li>
+					<li><a href="#">二饼疫苗</a></li>
+					<li><a href="#">二饼疫苗</a></li>
+				</ul>
+				<ul style="background: url(images/14.jpg) no-repeat;">
+					<p class="more"><a href="#">更多</a></p>
+					<li><a href="#">20132827期</a></li>
+					<li><a href="#">20132827期</a></li>
+					<li><a href="#">20132827期</a></li>
+					<li><a href="#">20132827期</a></li>
+					<li><a href="#">20132827期</a></li>
+					<li><a href="#">20132827期</a></li>
+					<li><a href="#">20132827期</a></li>
+					<li><a href="#">20132827期</a></li>
+					<li><a href="#">20132827期</a></li>
+					<li><a href="#">20132827期</a></li>
+					<li><a href="#">20132827期</a></li>
+					<li><a href="#">20132827期</a></li>
+					<li><a href="#">20132827期</a></li>
+					<li><a href="#">20132827期</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="content_2">
+			<div class="content_2_1">
+				<img src="images/18.jpg"/>
+					<ul>
+						<li><a href="#"><img src="images/19.jpg" /></a><p>企业标题</p><span class="po">人气：1236</span><span class="ti">供稿：双胞胎</span></li>
+						<li><a href="#"><img src="images/19.jpg" /></a><p>企业标题</p><span class="po">人气：1236</span><span class="ti">供稿：双胞胎</span></li>
+						<li><a href="#"><img src="images/19.jpg" /></a><p>企业标题</p><span class="po">人气：1236</span><span class="ti">供稿：双胞胎</span></li>
+						<li><a href="#"><img src="images/19.jpg" /></a><p>企业标题</p><span class="po">人气：1236</span><span class="ti">供稿：双胞胎</span></li>
+						<li><a href="#"><img src="images/19.jpg" /></a><p>企业标题</p><span class="po">人气：1236</span><span class="ti">供稿：双胞胎</span></li>
+						<li><a href="#"><img src="images/19.jpg" /></a><p>企业标题</p><span class="po">人气：1236</span><span class="ti">供稿：双胞胎</span></li>
+						<li><a href="#"><img src="images/19.jpg" /></a><p>企业标题</p><span class="po">人气：1236</span><span class="ti">供稿：双胞胎</span></li>
+						<li><a href="#"><img src="images/19.jpg" /></a><p>企业标题</p><span class="po">人气：1236</span><span class="ti">供稿：双胞胎</span></li>
+						<li><a href="#"><img src="images/19.jpg" /></a><p>企业标题</p><span class="po">人气：1236</span><span class="ti">供稿：双胞胎</span></li>
+					</ul>
+					<img src="images/20.jpg"/>
+					<img src="images/21.jpg"/>
+					<ul>
+						<li><a href="#"><img src="images/19.jpg" /></a><p>企业标题</p><span class="po">人气：1236</span><span class="ti">供稿：双胞胎</span></li>
+						<li><a href="#"><img src="images/19.jpg" /></a><p>企业标题</p><span class="po">人气：1236</span><span class="ti">供稿：双胞胎</span></li>
+						<li><a href="#"><img src="images/19.jpg" /></a><p>企业标题</p><span class="po">人气：1236</span><span class="ti">供稿：双胞胎</span></li>
+						<li><a href="#"><img src="images/19.jpg" /></a><p>企业标题</p><span class="po">人气：1236</span><span class="ti">供稿：双胞胎</span></li>
+						<li><a href="#"><img src="images/19.jpg" /></a><p>企业标题</p><span class="po">人气：1236</span><span class="ti">供稿：双胞胎</span></li>
+						<li><a href="#"><img src="images/19.jpg" /></a><p>企业标题</p><span class="po">人气：1236</span><span class="ti">供稿：双胞胎</span></li>
+						<li><a href="#"><img src="images/19.jpg" /></a><p>企业标题</p><span class="po">人气：1236</span><span class="ti">供稿：双胞胎</span></li>
+						<li><a href="#"><img src="images/19.jpg" /></a><p>企业标题</p><span class="po">人气：1236</span><span class="ti">供稿：双胞胎</span></li>
+						<li><a href="#"><img src="images/19.jpg" /></a><p>企业标题</p><span class="po">人气：1236</span><span class="ti">供稿：双胞胎</span></li>
+					</ul>
+			</div>
+			<div class="content_2_2">
+				<div class="content_2_2_1">
+					<h1 style="background: url(images/15.jpg) no-repeat;"><span>更多&gt;&gt;</span></h1>
+					<ul>
+						<li>现场  <a href="#">2013养猪经济高峰论坛猪经济高峰</a>  5.18</li>
+						<li>现场  <a href="#">2013养猪经济高峰论坛猪经济高峰</a>  5.18</li>
+						<li>现场  <a href="#">2013养猪经济高峰论坛猪经济高峰</a>  5.18</li>
+						<li>现场  <a href="#">2013养猪经济高峰论坛猪经济高峰</a>  5.18</li>
+						<li>现场  <a href="#">2013养猪经济高峰论坛猪经济高峰</a>  5.18</li>
+					</ul>
+				</div>
+				<div class="content_2_2_2">
+					<h1 style="background: url(images/16.jpg) no-repeat;"><span>更多&gt;&gt;</span></h1>
+					<ul>
+						<li><img src="images/17.jpg"/><h2>企业名称</h2><span>已有1234个视频<a href="#">[观看]</a></span></li>
+						<li><img src="images/17.jpg"/><h2>企业名称</h2><span>已有1234个视频<a href="#">[观看]</a></span></li>
+						<li><img src="images/17.jpg"/><h2>企业名称</h2><span>已有1234个视频<a href="#">[观看]</a></span></li>
+						<li><img src="images/17.jpg"/><h2>企业名称</h2><span>已有1234个视频<a href="#">[观看]</a></span></li>
+						<li><img src="images/17.jpg"/><h2>企业名称</h2><span>已有1234个视频<a href="#">[观看]</a></span></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	</body>
+</html>

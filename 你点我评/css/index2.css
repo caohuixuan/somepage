@@ -1,0 +1,208 @@
+.contentlink{
+	width: 100%;
+	border-bottom: 1px solid #ccc;
+	height: 20px;
+}
+.contentlink_{
+	margin: 0px auto;
+	width: 980px;
+	height: 20px; 
+}
+.contentlink_ a{
+	display: inline-block;
+	height: 20px;
+	vertical-align: middle;
+	line-height: 20px;
+	text-decoration: none;
+}
+.contentlink_ a:link,.contentlink_ a:visited{
+	font: 12px arial;
+	color: #CCCCCC;
+}
+.contentlink_ a:hover{
+	font: 12px arial;
+	color: #CCCCCC;
+}
+.contentlink_ #thispage:link,.contentlink_ #thispage:visited{
+	font: 12px arial;
+	color: greenyellow;
+}
+.contentlink_ #thispage:hover{
+	font: 12px arial;
+	color: #ADFF2F;
+}
+.contain{
+	width: 980px;
+	margin: 0px auto;
+}
+.contain h2{
+	font: 20px "微软雅黑";
+    color: #999999;
+    padding: 10px 0px 10px 10px;
+    float: left;
+}
+.left{
+	width: 710px;
+	float: left;
+}
+
+.banner{
+	width: 710px;
+	height: 290px;
+	position: relative;
+}
+.banner img{
+	float: left;
+}
+.banner p{
+	position: absolute;
+   font: 40px "微软雅黑";
+   color: #999999;
+   width: 150px;
+   top: 40px;
+   right: 120px;
+}
+.banner span{
+	display: inline-block;
+	font: 12px arial;
+	color: #999999;
+	padding-top: 250px;
+}
+.dianping{
+	margin-top: 10px;
+}
+.dianpingtip{
+	width: 700px;
+	border: 1px solid #CCCCCC;
+	height: 20px;
+}
+.dianpingtip .tips{
+	font: 12px arial;
+	color: #5F9EA0;
+}
+.dianpingtip .t{
+	margin-left: 20px;
+}
+.dianpingtip a:link,.dianpingtip a:visited{
+	font: 12px arial;
+	color: #999999;
+	text-decoration: none;
+	
+}
+.dianpingtip a:hover{
+	font: 12px arial;
+	color: #5F9EA0;
+	text-decoration: none;
+}
+.chart{
+	float: right;
+	padding-right: 20px;
+}
+.chart a{
+	vertical-align: middle;
+	height: 20px;
+	line-height: 20px;
+	display: inline-block;
+}
+.dianpingtxt .list{
+	background: url(../images/c_08.png) no-repeat 0px 3px;
+	width: 150px;
+	padding-left: 20px;
+	float: right;
+	margin: 15px 0px 0px 0px;
+}
+.dianpingtxt .dianpings{
+	clear: both;
+	list-style: none;
+	margin: 0px 10px 0px 0px;
+}
+.dianpingtxt .dianpings li{
+	
+   border-bottom: 1px solid #CCCCCC;
+}
+.text{
+	width: 620px;
+	margin: 10px 20px 10px 20px;
+}
+.text p{
+	font: 12px arial;
+	line-height: 2em;
+	color: #999999;
+	margin: 10px 0px 10px 0px;
+}
+.text span{
+	font: 12px arial;
+	color: #999999;
+}
+
+.more{
+	float: right;
+	margin: 40px 40px 40px 0px;
+	font: 12px arial;
+}
+.more a:link,.more a:visited{
+	color: #999999;
+	text-decoration: none;
+}
+.more a:hover{
+	color: #5F9EA0;
+	text-decoration: none;
+}
+.right{
+	width: 270px;
+	float: right;
+}
+.right1 p{
+	clear: both;
+	font: 12px arial;
+	color: #999999;
+	line-height:1.5em;
+	margin-bottom: 30px;
+}
+.right1 span{
+	display: block;
+	font: 12px arial;
+	color: #CCCCCC;
+	padding-top: 10px;
+}
+.right2 ul{
+	clear: both;
+	list-style: none;
+	font: 12px arial;
+}
+.right2 ul li{
+	padding: 8px 0px 8px 10px;
+}
+.right2 ul li a:link,.right2 ul li a:visited{
+	color: #999999;
+	text-decoration: none;
+}
+.right2 ul li a:hover{
+	color: #5F9EA0;
+    text-decoration: underline;
+}
+.right3 p{
+	clear: both;
+}
+.right3 p img{
+	float: left;
+	border: 1px solid #CCCCCC;
+	margin-bottom: 10px;
+}
+.right3 p a,.right3_t{
+	display: block;
+	font: 12px arial;
+	margin-left: 150px;
+	padding-top: 20px;
+}
+.right3 p a:link,.right3 p a:visited{
+	color: #5F9EA0;
+	text-decoration: none;
+}
+.right3 p a:hover{
+	color: #5F9EA0;
+	text-decoration: none;
+}
+.footer{
+	clear: both;
+}

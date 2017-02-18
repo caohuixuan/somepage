@@ -1,0 +1,196 @@
+#content_5{
+	width: 100%;
+	background-color: #FFFFFF;
+}
+#content_5_{
+	margin: 0px auto;
+	width: 980px;
+	text-align: left;
+}
+#content_5_ h3{
+	padding-left: 10px;
+	padding-bottom: 15px;
+	font: 20px arial;
+	font-weight: lighter;
+	color: #333333;
+}
+#content_5_left{
+	width: 180px;
+	float: left;
+}
+#content_5_left #content_5_links{
+	clear: both;
+	padding-bottom:60px;
+	*display: inline;
+}
+#content_5_left #content_5_links h4{
+	font: 14px arial;
+	color: #666666;
+}
+#content_5_left #content_5_links ul{
+	list-style: none;
+	padding: 10px 0px 0px 10px;
+	font: 12px arial;
+}
+#content_5_left #content_5_links ul li{
+	float: left;
+	display: inline;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	overflow: hidden;
+	*padding-bottom:0px;
+	*width: 48px
+}
+#content_5_left #content_5_links ul li a:link,#content_5_left #content_5_links ul li a:visited{
+	text-decoration: none;
+	color: #666666;
+}
+#content_5_left #content_5_links ul li a:hover{
+	text-decoration: none;
+	color: #187EC6;
+}
+#content_5_middle{
+	width: 550px;
+	float: left;
+}
+#content_5_middle #content_5_data{
+	padding: 8px 0px 0px 0px;
+	border: 1px solid #CCCCCC;
+}
+#content_5_middle #content_5_data br,#content_5_middle #content_5_data div{
+	clear: both;
+}
+#content_5_middle #content_5_data div span{
+	float: right;
+	padding-left: 16px;
+	padding-right: 20px;
+	font: 12px arial;
+	color: #CCCCCC;
+	background: url(../img/sososo.png) no-repeat;
+}
+#content_5_middle #content_5_data ul{
+	list-style: none;
+	font: 12px arial;
+}
+#content_5_middle #content_5_data ul li{
+    float: left;
+    padding-left: 15px;	
+    padding-bottom: 8px;
+}
+#content_5_middle #content_5_data ul li a:link,#content_5_middle #content_5_data ul li a:visited{
+	text-decoration: none;
+	color: #333333;
+}
+#content_5_middle #content_5_data ul li a:hover{
+	color: #999999;
+}
+#content_5_middle #content_5_lists #content_5_list_img{
+	float: left;
+	padding: 10px 0px 10px 0px;
+}
+#content_5_middle #content_5_lists #content_5_list_img img{
+	border: 1px solid #CCCCCC;
+}
+#content_5_middle #content_5_lists #content_5_list_content{
+	float: left;
+	padding: 10px 0px 10px 30px;
+	width: 380px;
+}
+#content_5_middle #content_5_lists #content_5_list_content h4{
+	font: 16px arial;
+	color: #187EC6;
+	font-weight: lighter;
+}
+#content_5_middle #content_5_lists #content_5_list_content p{
+	padding-top: 10px;
+	font: 12px arial;
+	line-height: 1.5em;
+	color: #666666;
+}
+#content_5_middle #content_5_lists #content_5_list_content a:link,#content_5_middle #content_5_lists #content_5_list_content a:visited{
+	text-decoration: none;
+	color: #187EC6;
+}
+#content_5_middle #content_5_lists #content_5_list_content a:hover{
+	text-decoration: none;
+	color: #000000;
+}
+#content_5_middle #content_5_lists hr{
+	clear: both;
+	width: 95%;
+	size: 1px;
+	color: #CCCCCC;
+}
+#content_5_right{
+	width: 250px;
+	float: left;
+}
+#content_5_right #content_5_right_top{
+	padding: 5px 0px 20px 0px;
+}
+#content_5_right #content_5_right_top img{
+	padding-left:5px ;
+}
+#content_5_right #content_5_right_bottom ul{
+	list-style: none;
+}
+#content_5_right #content_5_right_bottom ul li{
+	padding-left: 10px;
+	padding-top: 10px;
+}
+#content_5_right #content_5_right_bottom ul li span{
+	padding-right: 10px;
+}
+#content_5_right #content_5_right_bottom ul li img{
+	float: right;
+}
+#content_5_right #content_5_right_bottom ul li a:link,#content_5_right #content_5_right_bottom ul li a:visited{
+	text-decoration: none;
+	font: 12px arial;
+	color: #333333;
+}
+#content_5_right #content_5_right_bottom ul li a:hover{
+	text-decoration: none;
+	font: 12px arial;
+	color: #666666;
+}
+#content_5_bottom{
+	clear: both;
+	width: 100%;
+	text-align: center;
+}
+#content_5_bottom ul{
+	width: 600px;
+    margin: 0px auto;
+	list-style: none;
+	font: 16px arial;
+}
+#content_5_bottom ul li{
+	float: left;
+	position: relative;
+	min-width: 30px;
+	text-align: center;
+	border: 1px solid #CCCCCC;
+	margin: 15px 3px 15px 3px;
+}
+#content_5_bottom ul li a{	
+	float: left;
+	padding: 5px 0px 5px 0px;
+	width: 100%;
+	*width: auto;
+	*min-width:30px;
+	_padding:8px 8px 8px 8px;
+	display: inline-block;
+	text-decoration: none;
+}
+#content_5_bottom ul li a:link,#content_5_bottom ul li a:visited{
+	background-color:#F8F8F1 ;
+	color: #666666;
+}
+#content_5_bottom ul li a:hover{
+	background-color: #187EC6;
+	color: #FFFFFF;
+}
+#content_5_bottom br{
+	clear: both;
+}

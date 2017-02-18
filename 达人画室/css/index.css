@@ -1,0 +1,230 @@
+body,h2,h3,p,ul{
+	margin:0px;
+	padding:0px; 
+}
+img{
+	vertical-align: top;
+	border-width: 0px;
+}
+.top{
+	width: 100%;
+	height: 130px;
+	background-color: #141E5B;
+	text-align: center;
+	position: relative;
+}
+.share{
+	position: absolute;
+	text-align: left;
+	top: 90px;
+	left: 75%;
+	height: 23px;
+	width: 150px;
+}
+.share a{
+	display: inline-block;
+	width:23px;
+	height: 23px;
+}
+.link{
+	width: 100%;
+	height: 30px;
+	background-color: #141E5B;
+}
+.link ul{
+	width: 1024px;
+	margin:0px auto;
+	border-top: 1px solid #ffffff; 
+	list-style: none;
+	padding-left: 8px;
+}
+.link ul li{
+	float: left;
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	margin-left: 2px;
+}
+.link ul li a{
+	text-decoration: none;
+	display: inline-block;
+	width: 100px;
+	height: 30px;
+	font: 14px arial;
+	line-height: 30px;
+	vertical-align: top;
+	margin-top: 0px;
+}
+.link ul li a:link,.link ul li a:visited{
+   color: #ccc;
+}
+.link ul li a:hover{
+	font-weight: bold;
+	color: #141E5B;
+	background-color: #ccc;
+}
+.w{
+	display: none;
+}
+.banner{
+	width: 1024px;
+	height: 365px;
+	margin:0px auto; 
+	position: relative;
+}
+.banner .imgs{
+	width: 1024px;
+	height: 365px;
+	position: relative;
+	z-index: 1;
+}
+.banner ul{
+	list-style: none;
+	position: relative;
+	z-index: 0;
+}
+.banner ul li{
+	position: absolute;
+}
+.banner ul li img{
+	width: 1024px;
+	height: 365px;
+}
+.banner .imgs span{
+     display: inline-block;
+     height: 70px;
+     width: 50px;
+     background-color: #ccc;
+     position: absolute;
+     z-index: 2;
+     opacity: .5;
+     text-align: center;
+     padding-top: 30px;
+}
+.turnLeft{
+	top: 100px;
+	left: 0px;
+}
+.turnRight{
+	top:100px;
+	right: 0px;
+}
+.focus{
+    position: absolute;
+    top: 330px;
+    left: 512px;
+    width: 130px;
+    height: 20px;
+    margin-left: -65px;
+    z-index: 3;
+    text-align: center;
+}
+.focus span{
+	display: inline-block;
+	height: 16px;
+	width: 16px;
+	background: url(../img/dot.png) no-repeat;
+}
+.content{
+	width:1024px;
+	margin:20px auto 20px auto; 
+}
+.content h2{
+	font: 24px "微软雅黑";
+	border-bottom: 1px solid #999;
+	padding:10px 0px 5px 8px; 
+	margin-bottom: 10px;
+    color: #141E5B;
+}
+.content1{
+	width: 1024px;
+	height:400px;
+	margin-bottom: 20px;
+}
+.content1_left{
+	width: 610px;
+	float: left;
+}
+.content1_right{
+	width:390px;
+	float: right;
+	font: 12px "微软雅黑";
+	color: #666;
+	line-height: 2em;
+}
+.content1_right p{
+	width: 100%;
+}
+.content1_right p span{
+	float: right;
+}
+.content1_right ul{
+	list-style: none;
+	margin-top: 20px;
+}
+.content1_right ul li{
+	width: 123px;
+	padding-right: 5px;
+	float: left;
+}
+.content1_right ul li span{
+	font-size: 16px;
+}
+.content2{
+	width: 1024px;
+}
+.content2_left{
+	float: left;
+}
+.jingxuan {
+   width: 610px;
+   height: 360px;
+   position: relative;
+}
+.jingxuan .da img{
+	height: 360px;
+	float: left;
+}
+.jingxuan .xiao img{
+	height: 120px;
+	width: 112px;
+	float: right;
+}
+.jingxuan .list{
+	position: absolute;
+	height: 360px;
+	width: 336px;
+	background-color: #141E5B;
+	opacity: .5;
+	left: 275px;
+	display: none;
+}
+.content2_right{
+	width:390px;
+	float: right;
+	font: 12px "微软雅黑";
+	color: #666;
+	line-height: 2em;
+}
+.content2_right p{
+	width: 100%;
+}
+.content2_right p span{
+	float: right;
+}
+.content2_right ul{
+	list-style: none;
+	margin-top: 20px;
+}
+.content2_right ul li{
+	width: 123px;
+	padding-right: 5px;
+	float: left;
+}
+.content2_right ul li span{
+	font-size: 16px;
+}
+.content3{
+	clear: both;
+}
